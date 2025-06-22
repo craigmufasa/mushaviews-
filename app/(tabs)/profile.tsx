@@ -302,7 +302,7 @@ export default function ProfileScreen() {
         
         <View style={styles.footer}>
           <Text style={styles.footerText}>Version 1.0.0</Text>
-          <Text style={styles.footerText}>© 2023 RealEstate App</Text>
+          <Text style={styles.footerText}>© 2025 Musha Views</Text>
         </View>
       </ScrollView>
     </SafeAreaView>

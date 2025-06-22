@@ -79,7 +79,7 @@ export default function RoleSelectionScreen() {
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.header}>
-          <Text style={styles.title}>How will you use RealEstate?</Text>
+          <Text style={styles.title}>How will you use Musha Views?</Text>
           <Text style={styles.subtitle}>
             Select your primary role to personalize your experience
           </Text>

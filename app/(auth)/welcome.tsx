@@ -62,7 +62,7 @@ export default function WelcomeScreen() {
             <View style={styles.logoContainer}>
               <Home size={32} color="white" />
             </View>
-            <Text style={styles.appName}>RealEstate</Text>
+            <Text style={styles.appName}>Musha Views</Text>
           </View>
           
           <View style={styles.content}>

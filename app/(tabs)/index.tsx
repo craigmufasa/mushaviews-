@@ -41,7 +41,7 @@ export default function HomeScreen() {
           </View>
           <TouchableOpacity style={styles.locationButton}>
             <MapPin size={16} color={colors.primary} />
-            <Text style={styles.locationText}>San Francisco</Text>
+            <Text style={styles.locationText}>Harare</Text>
           </TouchableOpacity>
         </View>
 
