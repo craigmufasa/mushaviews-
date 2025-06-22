@@ -26,6 +26,8 @@ import {
   collection,
   addDoc 
 } from 'firebase/firestore';
+import { initializeFirestore, persistentLocalCache } from 'firebase/firestore';
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyA4JfWvsw3cem_8XThLOXa76WqTNG2BapY",
@@ -55,6 +57,10 @@ try {
 }
 
 const db = getFirestore(app);
+// Enable offline persistence (optional)
+initializeFirestore(app, {
+  localCache: persistentLocalCache({ synchronizeTabs: true })
+});
 
 interface AuthState {
   user: User | null;
